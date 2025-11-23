@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analog Reverbs </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .article {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+</head>
+
+
+
+<body>
+  <div class="header">
+    <div>
+      <a href="index.htm"><strong>vesia</strong></a> <span>— Audio works and research</span>
+    </div>
+    <div>
+      <a href="index.htm">articles</a>
+      <span>
+        <a href="projects.htm">projects</a>
+        <a href="contact.htm">contact</a>
+      </span>
+    </div>
+  </div>
+
+  <main class="article">
+
+    <!-- article style="padding: 2rem; max-width: 800px; margin: auto;">-->
+    <h1>Analog Reverbs </h1>
+    <h2>A brief history on patents about Saddles, Necklaces and Buckets</h2>
+    <div class="meta">November 23, 2025</div>
+    <div class="download-box">
+      <a href="articles/articles_pdfs/AnalogReverbsHistory.pdf" download>Download the PDF version</a>
+    </div>
+    <h2 id="introduction">Chambers</h2>
+    <p>Before the advent of mechanical, electrical, and digital reverbs, the only way to achieve reverberation was
+      through natural reflections of the studio room or through the use of echo chambers.
+    </p>
+    <p>In the first case, studio rooms would need to be precisely designed for the desired reverberation time and
+      characteristics. Various rooms would be used for different instruments recording. For example, a chamber hall has
+      a long reverberation time; therefore, an orchestra recording sounds more natural compared of multiple takes of
+      individual instruments inside small rooms with short reverberation time. A majestic architectural and historical
+      example of this is the Funkhaus Nalepastraße in Berlin[1].</p>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/studio1funkhaus.jpg" alt="Example figure">
+      <div class="img-caption">Figure 1 — Studio 1 in Funkhaus Nalepastraße [1]</div>
+    </div>
+
+
+    <p>Instead, when specialized reverberating environments such as echo chambers were used (like in US Patent
+      2,431,962A [2]), the effect became a creative tool that departed from the simple idea of being a mere intrinsic
+      characteristic of the recording ambient. A speaker would play the input sound, called dry, while microphones
+      placed in various points around the space would record the resulting wet output. By changing the room
+      characteristics (space dimension, materials, presence of reflectors) different sonic characteristics could be
+      achieved.
+
+    </p>
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/echochamber.jpg" alt="Example figure">
+      <div class="img-caption">Figure 2 — The custom echo chamber described in [2]</div>
+    </div>
+
+
+    <p>For example, in Figure 2, number 12 is a wall section able to rotate around a vertical axis, allowing the user to
+      separate or connect the two sub echo chambers. number 16, 19 and 15, 18 are the speakers and microphones,
+      respectively.</p>
+    <p>
+      The most famous echo chamber is most probably the “Studio Two Echo Chamber” that Abbey Road Studios used in an
+      infinite amount of records during the 50s. Among those, John Lennon’s vocal for A Day in the Life[3]. Before that,
+      one of the first examples of the creative use of echo chambers in pop records is Peg O’ My Heart by The
+      Harmonicats, published in 1947[4]. Ironically, the studio bathroom was used instead.</p>
+
+
+
+    <h2>Plates</h2>
+
+
+
+    <p>Because a specialized echo room meant leaving costly studio space unused (hence the use of the bathroom by the
+      Harmonicats) the need for small, controlled reverberation environments quickly arose. To solve this, the famous
+      EMT 140, commercialized by the German company EMT (US Patent 2,923,369A [6]), replaced an entire echo room with
+      just 270 kilograms of a lightweight studio reverberation unit, shown in Figure 3. Commercialized in 1957, this 2.4
+      × 1.2 meter sheet of resonating steel used inductive drivers and pickup transducers for input and output, while
+      the mechanical damper would ultimately control the reverberation time and the timbre of the reflections [5].</p>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/emt140.png" alt="Example figure">
+      <div class="img-caption">Figure 3 — The EMT140 reverberation unit [5]</div>
+    </div>
+
+    <p> For the few ones who could afford it during the 60s, the EMT 140 became a staple in the most popular records,
+      especially considering the extensive use by The Beatles in the Abbey Road studios starting from the very same year
+      it was commercialized. On a technical note, its size, weight and sensitivity to external sounds requires that the
+      unit needs to be placed in a quiet environment separated from the control room, typically in the basement. The
+      Abbey Road Studios basement, in fact, houses the four iconic EMT 140s labeled A, B, C, and D.</p>
+
+    <h2>Saddles</h2>
+
+    <p> It’s hard to talk about artificial reverberation without bringing up spring reverbs. A few decades before the
+      EMT 140, back in 1941, Laurens Hammond (yes, that Hammond) came up with a new “Electrical Musical Instrument” [8].
+      Hammond focused on faithfully emulating the sound of church organs, and because those were played in vast spaces
+      such as cathedrals, mimicking the long reverb tails caused by many reflections in those environments was
+      essential. To recreate that behavior, Hammond embedded springs in the reverberation units built into his organs.
+      But to understand how springs can reproduce a reverb effect, we need to look at the source of Hammond’s
+      inspiration.</p>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/bellabspatent.png">
+      <div class="img-caption">Figure 4 — Structure of the Bell Labs "Wave Transmission Device" [7]</div>
+    </div>
+
+    <p>
+      Online sources [9] suggest that the idea originated from a device patented in 1928 by Bell Labs for simulating the
+      delay experienced on long-distance calls [7]. Figure 4 shows the structure of this device. An input signal is sent
+      to an electromechanical transducer that excites a spring. The resulting wave travels through the spring and is
+      captured at the opposite end by another transducer. The time it takes for the wave to move from one end to the
+      other mimics the delay an electrical signal would experience when traveling through kilometers of telephone line.
+      Unlike a telephone line, however, once the wave reached the end of the spring, it bounced back, producing a series
+      of unwanted reflections. What seemed like a failure to the Bell Labs engineers turned out to be exactly what
+      Laurens Hammond needed for his organs.
+    </p>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/saddle.jpg">
+      <div class="img-caption">Figure 5 — The characteristic "Saddle" support[10][8]</div>
+    </div>
+
+    <p>
+      The first Hammond reverberation unit is often referred to as “The Saddle”[8]. It featured two primary springs
+      responsible for generating the reverb effect, supported by four additional springs that helped to maintain
+      balance. The support they were attached to resembled a saddle, hence the name (Figure 5). The primary springs were
+      mounted vertically inside copper tubes partially filled with oil, a design that allowed the decay time to be
+      adjusted by varying the amount of oil in each tube.
+    </p>
+
+    <h2>Necklaces</h2>
+
+
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/necklace.jpg">
+      <div class="img-caption">Figure 6 — The Necklace Reverb [11]</div>
+    </div>
+    <p>
+      1958 saw a further development of the spring system. The impractical use of oil, which required the springs to be
+      mounted exclusively in a vertical position, was abandoned in favor of a three-spring design. The springs were now
+      mounted horizontally and fixed at both ends by transducers and left free at the center, resembling a “Necklace”
+      because they hung in much the same way. This configuration is shown in U.S. Patent No. 2,982,819 by inventors H.
+      E. Heinema and H. H. Canfield [12] (Figure 6). It was found that this implementation produced a more “natural”
+      sound, closer to that of a real room.</p>
+    <h2>Accurate Springs</h2>
+
+    <p>
+      In 1961, Alan Young was asked to redesign the Necklace reverb to address the bumping problem. The original
+      catenary shape was replaced with a straight configuration [13]. Greater attention was given to the specification
+      of the springs: the new reverb tanks typically contained groups of two or three springs, each with a slightly
+      different delay time to produce a more natural sound. The springs were attached at their ends with dampers, whose
+      material determined the total reverberation time. In addition, they were enclosed in a rectangular, more compact
+      metal tank that featured extra support springs to fully decouple external vibrations [14]. These units were
+      marketed as the Accutronics (Hammond Organ Division) Type 4, a design that remains in production today (Figure 7).
+    </p>
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/accutronicstypes.png">
+      <div class="img-caption">Figure 7 — Some Accutronics tanks: Type 8 and Type 9 [15]</div>
+    </div>
+
+
+    <p>
+      After these developments, spring reverbs quickly became the staple of portable reverberation units. The main
+      reason for this success is tied to Leo Fender, who installed the Type 4 in the Fender Twin Reverb (1962) and
+      Fender Vibroverb (1963) guitar amplifiers, while standalone units such as the Fender 6G15 (also called the Fender
+      Reverb Unit) were also released. Their compact size and low cost created a symbiotic relationship with the sound
+      of the electric guitar itself. It’s hard to imagine a quick strum without the iconic boing.
+    </p>
+
+
+    <h2>Lines and Tapes</h2>
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/delaylinemills.png">
+      <div class="img-caption">Figure 8 — Reverberation system in [16]</div>
+    </div>
+
+
+    <p>
+      The principle of using delayed reflections to emulate reverberation can also be implemented through purely
+      electrical means. Digital algorithms are of course the modern way to go, but let us still stick with analog
+      systems. Traditionally, analog reverberation is achieved by converting an electrical signal into mechanical
+      vibrations that propagate through springs or plates. However, delays can also be generated without leaving the
+      electrical domain. Two main analog approaches have been explored over the years: transmission lines and magnetic
+      tapes.
+    </p>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/transmissionline.png">
+      <div class="img-caption">Figure 9 — Example of a transmission line</div>
+    </div>
+    <p>
+      In 1924, J. Mills introduced a reverberation system based on transmission lines, as described in U.S. Patent No.
+      1,647,242 [16]. In essence, a transmission line acts as an electronic filter constructed from a ladder network of
+      inductors and capacitors (Figure 9), which collectively produce a delay in the signal’s propagation. Mills’ system
+      creates reverberation by mixing the original signal with a delayed version of itself through two such transmission
+      lines, as shown in Figure 8. The two LC lines differ in their number of components: the longer line, containing
+      more inductors and capacitors, produces a longer delay.
+    </p>
+    <p>
+      Multiple reflections can be achieved by introducing a feedback circuit, which is a technique later formalized in
+      E. H. Schreiber’s 1932 U.S. Patent No. 1,947,621 [17]. However, the main limitation of this approach is that long
+      delay times require many inductors, making the system bulky and expensive. To address this issue, S. J. Begun
+      proposed an alternative in U.S. Patent No. 2,327,956, replacing the transmission-line delay network with an
+      “infinite” magnetic tape loop (Figure 10) [18].
+    </p>
+    <h2>Buckets</h2>
+
+    <div class="article-image">
+      <img src="images/AnalogReverbsHistory/nastri.png">
+      <div class="img-caption">Figure 10 — Magnetic tapes used in [18]</div>
+    </div>
+    <p>
+      About five decades later, Bucket Brigade Delay (BBD) integrated circuits were introduced, marking a major
+      milestone in analog signal processing. One of the most notable examples was the Panasonic MN3011, consisting in a
+      six-tap, 3328-stage BBD chip which became one of the first such devices used in commercial analog reverb pedals
+      [19].
+    </p>
+    <p>
+      In these systems, a large analog shift register comprising thousands of stages was used to delay the incoming
+      signal. Multiple outputs were taken from various points (taps) along the delay line, and the overall output was
+      obtained by forming a weighted sum of these individual taps. The resulting signal could then be fed back into the
+      input to create reflections. Conceptually, this approach echoed the same feedback principles described decades
+      earlier by E. H. Schreiber [17].
+    </p>
+    <p>
+      Among the most famous pedals employing the MN3011 was the Morley Rock’n Verb, while Elektor Electronics published
+      a DIY project about the MN3011 called “BBD Sound Effects Unit” in 1990 [20]. Bucked Brigade Delays are so popular
+      that new chips are designed even today, such as the Sound Semiconductor SSI2100 [21].
+    </p>
+    <h2>Other Patents I did not mention</h2>
+
+    Tens of patents about analog reverberation systems exist. Here are some of them that I did not mention in the article:
+    <ul class="triangle-list">
+
+      <li>U.S. Patent No. 2,600,870 - Synthetic Reverberation System by J. L. Hathaway and J. G. Petit (1947) [22]. This
+        reverberation system used a set of strings stretched over a board (Figure 11). Its sound should be more similar
+        to the one of a resonating guitar body rather than a proper reverb. Various examples of similar techniques are
+        also employed in live electronics pieces that transform a piano into a resonating apparatus.</li>
+      <div class="article-image">
+        <img src="images/AnalogReverbsHistory/chitarra.png">
+        <div class="img-caption">Figure 11 — U.S. Patent No. 2,768,235 [23]</div>
+      </div>
+
+      <li>U.S. Patent No. 2,768,235 - Reverberation Devices by A. F. Knoblaugh (1950) [23]. This is a rather weirdly
+        arranged speaker-spring-microphone system (Figure 12).</li>
+      <div class="article-image">
+        <img src="images/AnalogReverbsHistory/altoparlante.png">
+        <div class="img-caption">Figure 12 — U.S. Patent No. 2,600,870 [22]</div>
+      </div>
+
+      <li>U.S. Patent No. 2,986,228A - Miniature Eco Chamber System by M. Rettinger and Carl N. Shipman Jr. (1961) [24].
+        This patent describes a miniature echo chamber that should be able to reproduce the same reverberation of a
+        normal one.</li>
+    </ul>
+    <h2>Bibliography</h2>
+
+    <div class="bib-list">
+
+      <p>[1]
+        <a href="https://daily.redbullmusicacademy.com/2018/09/gerhard-steinke-funkhaus-berlin-sound-technology">
+          https://daily.redbullmusicacademy.com/2018/09/gerhard-steinke-funkhaus-berlin-sound-technology
+        </a>
+      </p>
+
+      <p>[2] Michael Rettinger. <em>Reverberation Method and System.</em>
+        US Patent 2,431,962A. Dec. 1947.
+        <a href="https://patents.google.com/patent/US2431962A/">
+          https://patents.google.com/patent/US2431962A/
+        </a>
+      </p>
+
+      <p>[3]
+        <a href="https://www.abbeyroad.com/news/studio-two-echo-chamber-gearthatmadeus-3114">
+          https://www.abbeyroad.com/news/studio-two-echo-chamber-gearthatmadeus-3114
+        </a>
+      </p>
+
+      <p>[4]
+        <a href="https://www.youtube.com/watch?v=9BIuX7IsdE8">
+          https://www.youtube.com/watch?v=9BIuX7IsdE8
+        </a>
+      </p>
+
+      <p>[5]
+        <a href="https://www.barryrudolph.com/recall/manuals/emt140.pdf">
+          https://www.barryrudolph.com/recall/manuals/emt140.pdf
+        </a>
+      </p>
+
+      <p>[6] Walter K. Kuhl. <em>Acoustic reverberation arrangements.</em>
+        US Patent 2,923,369A. June 1956.
+        <a href="https://patents.google.com/patent/US2923369A/">
+          https://patents.google.com/patent/US2923369A/
+        </a>
+      </p>
+
+      <p>[7] Raymond L. Wegel. <em>Wave transmission device.</em>
+        US Patent 1,852,795. Apr. 1932.
+        <a href="https://patents.google.com/patent/US1852795A">
+          https://patents.google.com/patent/US1852795A
+        </a>
+      </p>
+
+      <p>[8] Laurens Hammond. <em>Electrical musical instrument.</em>
+        US Patent 2,230,836. Feb. 1941.
+        <a href="https://patents.google.com/patent/US2230836A">
+          https://patents.google.com/patent/US2230836A
+        </a>
+      </p>
+
+      <p>[9]
+        <a href="http://www.accutronicsreverb.com/pages/history.php">
+          http://www.accutronicsreverb.com/pages/history.php
+        </a>
+      </p>
+
+      <p>[10]
+        <a href="https://www.hammondclub.nl/nl/menu/Hammond/De-Hammond-Encyclopedie/Reverb-history">
+          https://www.hammondclub.nl/nl/menu/Hammond/De-Hammond-Encyclopedie/Reverb-history
+        </a>
+      </p>
+
+      <p>[11]
+        <a href="https://www.thegearpage.net/board/index.php?threads/worst-reverb.2007625/page-8">
+          https://www.thegearpage.net/board/index.php?threads/worst-reverb.2007625/page-8
+        </a>
+      </p>
+
+      <p>[12] Herbert E. Meinema & Herbert H. Canfield. <em>Artificial reverberation apparatus.</em>
+        US Patent 2,982,819. May 1962.
+        <a href="https://patents.google.com/patent/US2982819A/">
+          https://patents.google.com/patent/US2982819A/
+        </a>
+      </p>
+
+      <p>[13] Alan C. Young. <em>Artificial reverberation unit.</em>
+        US Patent 3,106,610. Oct. 1961.
+        <a href="https://patents.google.com/patent/US3106610A/">
+          https://patents.google.com/patent/US3106610A/
+        </a>
+      </p>
+
+      <p>[14] William C. Laube Jr. <em>Reverberation unit having vibration-isolating suspension.</em>
+        US Patent 3,286,204. Apr. 1962.
+        <a href="https://patents.google.com/patent/US3286204A/">
+          https://patents.google.com/patent/US3286204A/
+        </a>
+      </p>
+
+      <p>[15]
+        <a href="https://www.amplifiedparts.com/tech-articles/spring-reverb-tanks-explained-and-compared">
+          https://www.amplifiedparts.com/tech-articles/spring-reverb-tanks-explained-and-compared
+        </a>
+      </p>
+
+      <p>[16] J. Mills. <em>Recording and reproduction system.</em>
+        US Patent 1,647,242. Apr. 1924.
+        <a href="https://patents.google.com/patent/US1647242A/">
+          https://patents.google.com/patent/US1647242A/
+        </a>
+      </p>
+
+      <p>[17] Ernst H. Schreiber. <em>Reverberation circuit.</em>
+        US Patent 1,947,621. Feb. 1934.
+        <a href="https://patents.google.com/patent/US1947621A/">
+          https://patents.google.com/patent/US1947621A/
+        </a>
+      </p>
+
+      <p>[18] Semi Joseph Begun. <em>Magnetic recording and reproducing.</em>
+        US Patent 2,327,956A. Dec. 1940.
+        <a href="https://patents.google.com/patent/US2327956A/">
+          https://patents.google.com/patent/US2327956A/
+        </a>
+      </p>
+
+      <p>[19]
+        <a href="https://www.experimentalistsanonymous.com/diy/Datasheets/MN3011.pdf">
+          https://www.experimentalistsanonymous.com/diy/Datasheets/MN3011.pdf
+        </a>
+      </p>
+
+      <p>[20]
+        <a href="https://worldradiohistory.com/UK/Elektor/90s/Elektor-1990-04.pdf">
+          https://worldradiohistory.com/UK/Elektor/90s/Elektor-1990-04.pdf
+        </a>
+      </p>
+
+      <p>[21]
+        <a href="https://www.soundsemiconductor.com/downloads/ssi2100datasheet.pdf">
+          https://www.soundsemiconductor.com/downloads/ssi2100datasheet.pdf
+        </a>
+      </p>
+
+      <p>[22] Joseph G. Petit & Jarrett L. Hathaway. <em>Synthetic reverberation system.</em>
+        US Patent 2,600,870A. Feb. 1947.
+        <a href="https://patents.google.com/patent/US2600870A/">
+          https://patents.google.com/patent/US2600870A/
+        </a>
+      </p>
+
+      <p>[23] Armand F. Knoblaugh. <em>Reverberation devices.</em>
+        US Patent 2,768,235A. Oct. 1950.
+        <a href="https://patents.google.com/patent/US2768235A/">
+          https://patents.google.com/patent/US2768235A/
+        </a>
+      </p>
+
+      <p>[24] Michael Rettinger & Carl N. Shipman Jr. <em>Miniature Reverberation Chamber System.</em>
+        US Patent 2,986,228A. May 1961.
+        <a href="https://patents.google.com/patent/US2986228A/">
+          https://patents.google.com/patent/US2986228A/
+        </a>
+      </p>
+
+    </div>
+
+
+
+
+
+
+  </main>
+
+  <div class="footer">
+    <div><strong>vesia</strong></div>
+    <div><strong><a href="https://www.instagram.com/vesiavesiavesia/">instagram</a></strong></div>
+  </div>
+</body>
+
+</html>
