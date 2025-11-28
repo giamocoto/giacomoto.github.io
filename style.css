@@ -26,13 +26,19 @@
         /* border-bottom: 2.5px solid var(--block-line); */
 
     }
+    .header .subtitle {
+    font-size: 0.8em;    /* smaller relative to header font size */
+    font-weight: normal;  /* optional */
+    opacity: 0.8;         /* optional, makes it visually lighter */
+    margin-left: 0px;     /* small spacing from "vesia" */
+}
 
     @media (max-width: 600px) {
         .header>div:first-child {
             width: 100%;
             margin-bottom: 1rem;
         }
-    } 
+    }
 
     /*.header > div {
     display: flex;
@@ -191,8 +197,10 @@
         line-height: 1.3;
     }
 
+
     .ellipsis {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: hidden;
+        overflow-wrap: break-word;
+        /* modern */
+        word-wrap: break-word;
+        /* legacy */
     }

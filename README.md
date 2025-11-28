@@ -1,7 +1,6 @@
 # giacomoto.github.io
-vesia website
-Hosted here:
+vesia website: https://vesia.it
+or https://giamocoto.github.io/giacomoto.github.io/index.html
 
-https://giamocoto.github.io/giacomoto.github.io/
 
 License: cc-by-sa-3.0
